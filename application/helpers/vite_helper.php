@@ -15,7 +15,18 @@
  * VUE_PORT
  * Change this value according to the server port in vite.config.js
  */
+
+
 define('VUE_MODE', 'development');
+
+/**
+ * For production 
+ * Must run npm run build in frontend folder
+ * and then change mode to production
+ */
+
+// define('VUE_MODE', 'production'); 
+
 define('VUE_PORT', 3000);
 
 function vite($entry)
